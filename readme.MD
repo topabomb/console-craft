@@ -1,6 +1,6 @@
 # console-craft
 
-Simplify console program development, standardize program parameters and log output, and provide support for user interaction or command-line parameters to start the main program and subcommands.令。
+Simplify console program development, standardize program parameters and log output, and provide support for user interaction or command-line parameters to start the main program and subcommands.。
 
 ## Use Cases
 

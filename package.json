@@ -1,6 +1,6 @@
 {
   "name": "console-craft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simplify console program development, standardize program parameters and log output, and support user interaction or command-line parameter methods to launch the main program and subcommands.",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -w -c --configPlugin typescript",
-    "build": "rollup -c --configPlugin typescript"
+    "build": "rollup -c --configPlugin typescript",
+    "publish": "npm publish"
   },
   "author": "topabomb (hualei.hb@gmail.com)",
   "license": "ISC",
@@ -20,7 +21,7 @@
   },
   "type": "module",
   "publishConfig": {
-    "registry": "http://registry.npm.xxx.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "chalk": "^5.3.0",
