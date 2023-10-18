@@ -1,6 +1,6 @@
 {
   "name": "console-craft",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simplify console program development, standardize program parameters and log output, and support user interaction or command-line parameter methods to launch the main program and subcommands.",
   "keywords": [
     "console",
