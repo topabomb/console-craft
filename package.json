@@ -2,6 +2,10 @@
   "name": "console-craft",
   "version": "1.0.0",
   "description": "Simplify console program development, standardize program parameters and log output, and support user interaction or command-line parameter methods to launch the main program and subcommands.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topabomb/console-craft.git"
+  },
   "main": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
