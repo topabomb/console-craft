@@ -23,7 +23,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -w -c --configPlugin typescript",
     "dist": "rimraf ./dist && rollup -c rollup.config.ts  --configPlugin typescript",
-    "publish": "npm run dist && npm publish"
+    "npmjs": "npm run dist && npm publish"
   },
   "author": "topabomb (hualei.hb@gmail.com)",
   "license": "ISC",

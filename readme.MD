@@ -2,7 +2,9 @@
 
 ([english](readme.MD)/[简体中文](readme_cn.MD))
 
-Simplify console program development, standardize program parameters and log output, and provide support for user interaction or command-line parameters to start the main program and subcommands.。
+Simplify console program development, standardize program parameters and log output, and provide support for user interaction or command-line parameters to start the main program and subcommands.
+
+Recommend [weero-template](https://github.com/topabomb/weero-template.js) tool, which serves as a scaffold for creating projects with various types of templates.
 
 ## Use Cases
 

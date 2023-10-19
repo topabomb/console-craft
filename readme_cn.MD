@@ -4,6 +4,8 @@
 
 简化控制台程序开发，标准化程序参数和日志输出，支持用户交互或者命令行参数方式来启动程序和子命令。
 
+推荐[weero-template](https://github.com/topabomb/weero-template.js)，该工具作为脚手架可创建多种类型的模板的项目。
+
 ## 介绍
 
 - 支持多个子命令
