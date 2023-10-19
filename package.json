@@ -1,6 +1,6 @@
 {
   "name": "console-craft",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simplify console program development, standardize program parameters and log output, and support user interaction or command-line parameter methods to launch the main program and subcommands.",
   "keywords": [
     "console",
@@ -14,13 +14,16 @@
     "type": "git",
     "url": "https://github.com/topabomb/console-craft.git"
   },
-  "main": "dist/index.esm.js",
+  "exports": {
+    "import": "./dist/index.esm.mjs",
+    "default": "./dist/index.umd.cjs"
+  },
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rollup -w -c --configPlugin typescript",
-    "build": "rollup -c --configPlugin typescript",
-    "publish": "npm publish"
+    "dist": "rimraf ./dist && rollup -c rollup.config.ts  --configPlugin typescript",
+    "publish": "npm run dist && npm publish"
   },
   "author": "topabomb (hualei.hb@gmail.com)",
   "license": "ISC",
@@ -48,6 +51,7 @@
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
     "eslint": "^8.51.0",
+    "rimraf": "^5.0.5",
     "rollup": "^4.1.4",
     "rollup-plugin-cleandir": "^2.0.0",
     "typescript": "^5.2.2"
